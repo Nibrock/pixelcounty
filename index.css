@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+body {
+    background-color: black;
+}
+
+.pageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 25px white inset;
+    flex-direction: column;
+}
+
+.logoWrapper {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: flex-start;
+    height: 75vh;
+}
+
+.earth {
+    width: 400px;
+    height: 400px;
+    animation: earthSpin 60s infinite linear;
+    z-index: 10;
+}
+
+.logo {
+    width: 512px;
+    height: 512px;
+    image-rendering: pixelated;
+    position: fixed;
+    z-index: 100;
+}
+
+@keyframes earthSpin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    10% {
+        transform: rotateZ(36deg);
+    }
+    20% {
+        transform: rotateZ(72deg);
+    }
+    30% {
+        transform: rotateZ(108deg);
+    }
+    40% {
+        transform: rotateZ(144deg);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    60% {
+        transform: rotateZ(216deg);
+    }
+    70% {
+        transform: rotateZ(252deg);
+    }
+    80% {
+        transform: rotateZ(288deg);
+    }
+    90% {
+        transform: rotateZ(324deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.infoWrapper {
+    position: absolute;
+    width: 100vw;
+    transform: translateY(55vh);
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionText {
+    text-align: center;
+    color: white;
+    width: 50vw;
+    font-family: Pixel-Life;
+}
+
+.comingSoonWrapper {
+    position: absolute;
+    width: 100vw;
+    transform: translateY(45vh);
+    display: flex;
+    justify-content: center;
+}
+
+.comingSoonText {
+    color: white;
+    font-family: PixelSplitter;
+    font-size: 50px;
+}
+
+.gradient {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    animation: backgroundGradient
+}
