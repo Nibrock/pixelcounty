@@ -5,44 +5,50 @@
 }
 
 :root {
-
+    --pixel-lightblue: #9ea9ed;
 }
 
 body {
     background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .pageWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
-    box-shadow: 0 0 25px white inset;
+    width: 100vw;
+    box-shadow: 0 0 50px var(--pixel-lightblue) inset;
     flex-direction: column;
+}
+
+.earthWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .logoWrapper {
     display: flex;
-    width: 100vw;
     justify-content: center;
-    align-items: flex-start;
-    height: 75vh;
+    position: center;
 }
 
 .earth {
-    width: 400px;
-    height: 400px;
+    height: 40vh;
     animation: earthSpin 60s infinite linear;
     z-index: 10;
+    padding-bottom: 5%;
 }
 
 .logo {
-    width: 512px;
-    height: 512px;
+    height: 50vh;
     image-rendering: pixelated;
-    position: fixed;
     z-index: 100;
+    position: fixed;
 }
 
 @keyframes earthSpin {
@@ -82,9 +88,6 @@ body {
 }
 
 .infoWrapper {
-    position: absolute;
-    width: 100vw;
-    transform: translateY(55vh);
     display: flex;
     justify-content: center;
 }
@@ -92,27 +95,26 @@ body {
 .descriptionText {
     text-align: center;
     color: white;
-    width: 50vw;
     font-family: Pixel-Life;
+    padding-top: 25px;
+    width: 75vw;
 }
 
 .comingSoonWrapper {
-    position: absolute;
-    width: 100vw;
-    transform: translateY(45vh);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .comingSoonText {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
     font-family: PixelSplitter;
     font-size: 50px;
-}
-
-.gradient {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    animation: backgroundGradient
+    min-font-size: 30px;
+    max-font-size: 50px;
 }
