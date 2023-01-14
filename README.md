@@ -15,6 +15,6 @@ Pixel County will be a free-to-play online community with games, character and h
  
 ## Inspirations
 
-<img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/12/Habbo-Hotel.jpg" width="200" height="125"><img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/stardew-valley-switch/hero" width="200" height="125"><img src="https://static.tvtropes.org/pmwiki/pub/images/millsberry.jpg" width="200" height="125"><img src="https://cdn.mos.cms.futurecdn.net/mCumGsFHmUfbUnCU5JbiMf-970-80.jpg.webp" width="200" height="125"><img src="https://raush.files.wordpress.com/2010/02/tm.png" width="200" height="125">
+<img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/12/Habbo-Hotel.jpg" width="200" height="125"><img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/stardew-valley-switch/hero" width="200" height="125"><img src="https://static.tvtropes.org/pmwiki/pub/images/millsberry.jpg" width="200" height="125"><img src="https://cdn.mos.cms.futurecdn.net/mCumGsFHmUfbUnCU5JbiMf-970-80.jpg.webp" width="200" height="125">
 
 
