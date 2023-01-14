@@ -1,3 +1,15 @@
+@font-face {
+    font-family: PixelSplitter-Bold;
+    src: url("../pixelcounty/font/PixelSplitter-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Pixel-Life;
+    src: url("../pixelcounty/font/Pixel-Life.ttf");
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -117,4 +129,77 @@ body {
     font-size: 50px;
     min-font-size: 30px;
     max-font-size: 50px;
+}
+
+.socialWrapper {
+    position: fixed;
+    bottom: 5vh;
+}
+
+.socialIcon {
+    position: relative;
+    background-color: #999999;
+    color: #444444;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.socialIcon:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.25) inset, 0 0 5px rgba(255, 255, 255, 0.25);
+}
+
+.socialIcon:hover span {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.facebook:hover {
+    background-color: #3b5999;
+    background-image: linear-gradient(#3b5999, #5069a1);
+    color: #ffffff;
+}
+.twitter:hover {
+    background-color: #46c1f6;
+    color: #ffffff;
+}
+.instagram:hover {
+    background-color: #e1306c;
+    color: #ffffff;
+}
+.github:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+.youtube:hover {
+    background-color: #de463b;
+    color: #ffffff;
+}
+
+@media (max-width: 812px) {
+    .comingSoonText {
+        font-size: 35px;
+    }
+    .descriptionText {
+        width: 75vw;
+        font-size: 20px;
+    }
+    .comingSoonWrapper {
+        top: 62.5%;
+    }
+    .socialIcon {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 25px;
+    }
 }
